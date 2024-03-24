@@ -1,0 +1,11 @@
+{
+    "Name": "Unnatural Frog Friends",
+    "Author": "a-hawkins",
+    "Version": "0.0.1",
+    "Description": "Adds a variety of frog friends as coop animals. Created for SDV 1.6.",
+    "UniqueID": "a-hawkins.UFrogFriends",
+    "UpdateKeys": [ ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

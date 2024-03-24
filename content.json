@@ -1,0 +1,241 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+		{
+            "LogName": "Load data for Frog (Truffle Hog Frog)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Truffle Hog Frog": {
+                    "DisplayName": "Truffle Hog Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1250,
+                    "ShopTexture": "Animals/a-hawk.UFrogFriends-Truffle Hog Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Truffle Hog Frog",
+                    "ShopDescription": "These clever amphibian friends will find truffles for you!",
+                    "DaysToMature": "1",
+					"CanGetPregnant": true,
+					"CanSwim": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "430"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/a-hawk.UFrogFriends-Truffle Hog Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+		{
+            "LogName": "Load data for Frog (Milky Moo Frog)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Milky Moo Frog": {
+                    "DisplayName": "Milky Moo Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1250,
+                    "ShopTexture": "Animals/a-hawk.UFrogFriends-Milky Moo Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Milky Moo Frog",
+                    "ShopDescription": "These grazing amphibian friends produce milk somehow.",
+                    "DaysToMature": "1",
+					"CanGetPregnant": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 200,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "croak",
+                    "Texture": "Animals/a-hawk.UFrogFriends-Milky Moo Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+		{
+            "LogName": "Load data for Frog (Giddy Goat Frog)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Giddy Goat Frog": {
+                    "DisplayName": "Giddy Goat Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1250,
+                    "ShopTexture": "Animals/a-hawk.UFrogFriends-Giddy Goat Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Giddy Goat Frog",
+                    "ShopDescription": "These horned amphibian friends produce milk somehow.",
+                    "DaysToMature": "1",
+					"CanGetPregnant": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "436"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 200,
+                            "ItemId": "438"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "croak",
+                    "Texture": "Animals/a-hawk.UFrogFriends-Giddy Goat Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+		{
+            "LogName": "Load data for Frog (Cumulus Sheep Frog)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Cumulus Sheep Frog": {
+                    "DisplayName": "Cumulus Sheep Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1250,
+                    "ShopTexture": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Cumulus Sheep Frog",
+                    "ShopDescription": "These cloud-like amphibian friends can be sheared for wool.",
+                    "DaysToMature": "1",
+					"CanGetPregnant": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "440"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Shears",
+                    "Sound": "croak",
+                    "Texture": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog",
+					"HarvestedTexture": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog Sheared",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+		{
+            "LogName": "Load adultSprite for Truffle Hog Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Truffle Hog Frog",
+            "FromFile": "assets/TruffleHogFrog.png"
+        },
+		{
+            "LogName": "Load shopIcon for Truffle Hog Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Truffle Hog Frog Icon",
+            "FromFile": "assets/TruffleHogFrogIcon.png"
+        },
+		{
+            "LogName": "Load adultSprite for Milky Moo Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Milky Moo Frog",
+            "FromFile": "assets/MilkyMooFrog.png"
+        },
+		{
+            "LogName": "Load shopIcon for Milky Moo Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Milky Moo Frog Icon",
+            "FromFile": "assets/MilkyMooFrogIcon.png"
+        },
+		{
+            "LogName": "Load adultSprite for Giddy Goat Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Giddy Goat Frog",
+            "FromFile": "assets/GiddyGoatFrog.png"
+        },
+		{
+            "LogName": "Load shopIcon for Giddy Goat Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Giddy Goat Frog Icon",
+            "FromFile": "assets/GiddyGoatFrogIcon.png"
+        },
+		{
+            "LogName": "Load adultSprite for Cumulus Sheep Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog",
+            "FromFile": "assets/CumulusSheepFrog.png"
+        },
+		{
+            "LogName": "Load shopIcon for Cumulus Sheep Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog Icon",
+            "FromFile": "assets/CumulusSheepFrogIcon.png"
+        },
+		{
+            "LogName": "Load shearedSprite for Cumulus Sheep Frog",
+            "Action": "Load",
+            "Target": "Animals/a-hawk.UFrogFriends-Cumulus Sheep Frog Sheared",
+            "FromFile": "assets/CumulusSheepFrog-Sheared.png"
+        },
+    ]
+}
