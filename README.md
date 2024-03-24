@@ -15,5 +15,5 @@ Runs on Stardew v1.6.
   - produce wool
 - Pig frogs
   - produce truffles
-### Future Frogs
+#### Future Frogs:
 chicken, duck, ostrich, rabit, dino
